@@ -9,7 +9,8 @@ class LoginPage extends StatelessWidget {
   final usernameController = TextEditingController();
   final passwordController = TextEditingController();
 
-void signUserIn() {}
+
+  void signUserIn() {}
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -29,9 +30,9 @@ void signUserIn() {}
 
               const SizedBox(height: 50),
 
-              // welcome back, you've been missed!
+
               Text(
-                'Welcome back you\'ve been missed!',
+                'Bienvenue, vous nous avez manqué !',
                 style: TextStyle(
                   color: Colors.grey[700],
                   fontSize: 16,
@@ -40,32 +41,31 @@ void signUserIn() {}
 
               const SizedBox(height: 25),
 
-              // username textfield
+
               MyTextField(
                 controller: usernameController,
-                hintText: 'Username',
+                hintText: 'Nom d\'utilisateur',
                 obscureText: false,
               ),
 
               const SizedBox(height: 10),
 
-              // password textfield
+
               MyTextField(
                 controller: passwordController,
-                hintText: 'Password',
+                hintText: 'Mot de passe',
                 obscureText: true,
               ),
 
               const SizedBox(height: 10),
 
-              // forgot password?
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(
-                      'Forgot Password?',
+                      'Mot de passe oublié?',
                       style: TextStyle(color: Colors.grey[600]),
                     ),
                   ],
@@ -74,14 +74,14 @@ void signUserIn() {}
 
               const SizedBox(height: 25),
 
-              // sign in button
+
               MyButton(
                 onTap: signUserIn,
               ),
 
               const SizedBox(height: 50),
 
-              // or continue with
+
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
@@ -95,7 +95,7 @@ void signUserIn() {}
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 10.0),
                       child: Text(
-                        'Or continue with',
+                        'Ou continuer avec',
                         style: TextStyle(color: Colors.grey[700]),
                       ),
                     ),
@@ -111,7 +111,7 @@ void signUserIn() {}
 
               const SizedBox(height: 50),
 
-              // google + apple sign in buttons
+              // google + apple
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: const [
@@ -132,12 +132,12 @@ void signUserIn() {}
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Not a member?',
+                    'Vous n\'êtes pas un membre?',
                     style: TextStyle(color: Colors.grey[700]),
                   ),
                   const SizedBox(width: 4),
                   const Text(
-                    'Register now',
+                    'S\'enregistrer maintenant',
                     style: TextStyle(
                       color: Colors.blue,
                       fontWeight: FontWeight.bold,
