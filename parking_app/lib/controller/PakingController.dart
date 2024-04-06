@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smart_car_parking/config/colors.dart';
-import 'package:smart_car_parking/controller/model/car_model.dart';
+import 'package:parking_app/config/colors.dart';
+import 'package:parking_app/controller/model/car_model.dart';
 
 class ParkingController extends GetxController {
   RxList<CarModel> parkingSlotList = <CarModel>[].obs;

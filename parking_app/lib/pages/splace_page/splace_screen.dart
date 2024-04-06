@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smart_car_parking/Data.dart';
+import 'package:parking_app/Data.dart';
 
 class Splace_Screen extends StatelessWidget {
   const Splace_Screen({super.key});

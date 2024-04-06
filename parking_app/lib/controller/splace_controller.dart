@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:smart_car_parking/pages/LoginPage.dart';
+import 'package:parking_app/pages/LoginPage.dart';
 
 class SplaceController extends GetxController {
   @override

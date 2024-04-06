@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_car_parking/config/colors.dart';
+import 'package:parking_app/config/colors.dart';
 
 class FloorSelector extends StatelessWidget {
   const FloorSelector({super.key});
