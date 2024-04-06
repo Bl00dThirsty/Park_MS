@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:smart_car_parking/config/colors.dart';
-import 'package:smart_car_parking/pages/homepage/homepage.dart';
+import 'package:parking_app/config/colors.dart';
+import 'package:parking_app/pages/homepage/homepage.dart';
 
 class MapPage extends StatefulWidget {
   const MapPage({super.key});

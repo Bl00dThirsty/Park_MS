@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smart_car_parking/components/floot_selector.dart';
-import 'package:smart_car_parking/components/parking_slot.dart';
-import 'package:smart_car_parking/controller/PakingController.dart';
+import 'package:parking_app/components/floot_selector.dart';
+import 'package:parking_app/components/parking_slot.dart';
+import 'package:parking_app/controller/PakingController.dart';
 import '../../config/colors.dart';
 
 class HomePage extends StatelessWidget {

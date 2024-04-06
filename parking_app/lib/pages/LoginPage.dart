@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smart_car_parking/components/MyButton.dart';
-import 'package:smart_car_parking/components/MyTextField.dart';
-import 'package:smart_car_parking/pages/MapPage.dart';
+import 'package:parking_app/components/MyButton.dart';
+import 'package:parking_app/components/MyTextField.dart';
+import 'package:parking_app/pages/MapPage.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});

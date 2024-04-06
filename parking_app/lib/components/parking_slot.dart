@@ -1,7 +1,7 @@
 import 'package:another_dashed_container/another_dashed_container.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smart_car_parking/pages/booking_page/booking_page.dart';
+import 'package:parking_app/pages/booking_page/booking_page.dart';
 
 import '../config/colors.dart';
 

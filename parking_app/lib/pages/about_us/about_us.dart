@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:smart_car_parking/Data.dart';
-import 'package:smart_car_parking/config/colors.dart';
+import 'package:parking_app/Data.dart';
+import 'package:parking_app/config/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AboutUs extends StatelessWidget {

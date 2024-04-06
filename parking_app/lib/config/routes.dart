@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:smart_car_parking/pages/MapPage.dart';
-import 'package:smart_car_parking/pages/about_us/about_us.dart';
-import 'package:smart_car_parking/pages/homepage/homepage.dart';
+import 'package:parking_app/pages/MapPage.dart';
+import 'package:parking_app/pages/about_us/about_us.dart';
+import 'package:parking_app/pages/homepage/homepage.dart';
 
 var pages = [
   GetPage(

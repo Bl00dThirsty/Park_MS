@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smart_car_parking/controller/PakingController.dart';
+import 'package:parking_app/controller/PakingController.dart';
 import '../../config/colors.dart';
 
 class BookingPage extends StatelessWidget {
