@@ -48,7 +48,7 @@ class BookingPage extends StatelessWidget {
               const Row(
                 children: [
                   Text(
-                    "Book Now 😊",
+                    "Réserver maintenant...",
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
@@ -64,7 +64,7 @@ class BookingPage extends StatelessWidget {
               const Row(
                 children: [
                   Text(
-                    "Enter your name ",
+                    "Entrez votre nom",
                   )
                 ],
               ),
@@ -82,7 +82,7 @@ class BookingPage extends StatelessWidget {
                           Icons.person,
                           color: blueColor,
                         ),
-                        hintText: "ZYX Kumar",
+                        hintText: "John Ambassa",
                       ),
                     ),
                   )
@@ -92,7 +92,7 @@ class BookingPage extends StatelessWidget {
               const Row(
                 children: [
                   Text(
-                    "Enter Vehical Number ",
+                    "Entrez votre immatriculation",
                   )
                 ],
               ),
@@ -110,7 +110,7 @@ class BookingPage extends StatelessWidget {
                           Icons.car_rental,
                           color: blueColor,
                         ),
-                        hintText: "WB 04 ED 0987",
+                        hintText: "CE 237 CM",
                       ),
                     ),
                   )
@@ -120,7 +120,7 @@ class BookingPage extends StatelessWidget {
               const Row(
                 children: [
                   Text(
-                    "Choose Slot Time (in Minuits)",
+                    "Sélectionner la durée (en minutes)",
                   )
                 ],
               ),
@@ -202,7 +202,7 @@ class BookingPage extends StatelessWidget {
                     children: [
                       const Row(
                         children: [
-                          Text("Amount to Be Pay"),
+                          Text("Montant A Payer "),
                         ],
                       ),
                       Row(
@@ -237,7 +237,7 @@ class BookingPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: const Text(
-                        "PAY NOW",
+                        "Payez maintenant!",
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w500,

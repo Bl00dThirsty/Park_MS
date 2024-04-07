@@ -14,7 +14,7 @@ class AboutUs extends StatelessWidget {
         centerTitle: true,
         backgroundColor: blueColor,
         title: const Text(
-          "SMART CAR PARKING",
+          "CAR PARKING",
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.w600,

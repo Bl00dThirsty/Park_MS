@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:parking_app/components/MyButton.dart';
 import 'package:parking_app/components/MyTextField.dart';
-import 'package:parking_app/pages/MapPage.dart';
+import 'package:parking_app/pages/map_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple.shade200,
-        title: const Text("😍 L O G I N 🌳"),
+        title: const Text("LOG IN"),
         centerTitle: true,
       ),
       body: SafeArea(
@@ -24,7 +24,7 @@ class LoginPage extends StatelessWidget {
               const Row(
                 children: [
                   Text(
-                    "Welcome back ❤️",
+                    "Bon retour!",
                     style: TextStyle(fontSize: 15),
                   ),
                 ],

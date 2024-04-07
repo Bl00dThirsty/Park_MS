@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:parking_app/pages/MapPage.dart';
+import 'package:parking_app/pages/map_page.dart';
 import 'package:parking_app/pages/about_us/about_us.dart';
 import 'package:parking_app/pages/homepage/homepage.dart';
 

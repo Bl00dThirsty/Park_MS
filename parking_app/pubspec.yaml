@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  fluentui_icons: ^1.0.0
   get:
   another_dashed_container: ^1.0.0
   lottie: ^2.3.1

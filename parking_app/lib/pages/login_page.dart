@@ -1,7 +1,12 @@
+import 'package:flutter/material.dart';
+
+
 import 'package:parking_app/components/my_button.dart';
 import 'package:parking_app/components/my_textfield.dart';
 import 'package:parking_app/components/square_tile.dart';
-import 'package:flutter/material.dart';
+
+import 'package:parking_app/pages/map_page.dart';
+
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
